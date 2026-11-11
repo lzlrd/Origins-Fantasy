@@ -26,6 +26,7 @@ public class PerfectShot implements VisibleAbility, Listener {
 
     @EventHandler
     public void onEntityShootBow(EntityShootBowEvent event) {
-        runForAbility(event.getEntity(), player -> OriginsReborn.getMVE().launchArrow(event.getProjectile(), player, 0.0F, event.getForce(), 0.0F));
+        // The event's force runs from 0 to 1, and vanilla launches an arrow at three times that.
+        runForAbility(event.getEntity(), player -> OriginsReborn.getMVE().launchArrow(event.getProjectile(), player, 0.0F, event.getForce() * 3, 0.0F));
     }
 }
