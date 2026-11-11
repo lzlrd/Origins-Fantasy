@@ -22,7 +22,7 @@ public class BardicIntuition implements VisibleAbility, Listener {
 
     @Override
     public String title() {
-        return "Bardic Intuition";
+        return "Disc Collector";
     }
 
     @Override

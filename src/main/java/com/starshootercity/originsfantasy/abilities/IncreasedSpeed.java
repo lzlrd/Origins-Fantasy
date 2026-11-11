@@ -7,7 +7,7 @@ import org.jetbrains.annotations.NotNull;
 public class IncreasedSpeed implements VisibleAbility {
     @Override
     public String description() {
-        return "From years of training for race after race, you're much faster than any normal horse.";
+        return "After years of racing, your horse is much faster than any normal horse.";
     }
 
     @Override

@@ -12,5 +12,6 @@
 	},
 	"order": 1,
 	"impact": 3,
-	"description": "The vampire is a powerful creature of the night, with the ability to transform those it kills into more of its kind."
+	"name": "Zombified",
+	"description": "Undead, like the zombies that no longer hunt you. Daylight burns you and water hurts you, each kill heals you, and the players you kill rise as Zombified."
 }

@@ -12,7 +12,7 @@ public class SuperJump implements VisibleAbility {
 
     @Override
     public String description() {
-        return "You've trained for your whole life, so can jump much higher than a regular horse.";
+        return "Your horse has trained its whole life, so it jumps much higher than a regular horse.";
     }
 
     @Override

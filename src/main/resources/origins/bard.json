@@ -11,5 +11,6 @@
 	},
 	"order": 1,
 	"impact": 3,
-	"description": "Bards are masters of music and song, and emit a musical aura."
+	"name": "Allaykin",
+	"description": "Raised among allays, you share their love of music. Note blocks quicken you, amethyst heals you and creepers sometimes leave you a disc."
 }

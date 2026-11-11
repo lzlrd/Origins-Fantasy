@@ -40,12 +40,12 @@ public class PermanentHorse implements VisibleAbility, Listener {
 
     @Override
     public String description() {
-        return "You are half horse, half human.";
+        return "You ride your own horse and can never dismount.";
     }
 
     @Override
     public String title() {
-        return "Half Horse";
+        return "Born in the Saddle";
     }
 
     @Override

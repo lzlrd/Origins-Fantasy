@@ -13,5 +13,6 @@
   },
   "order": 1,
   "impact": 2,
-  "description": "Stone statues awoken by magic, Gargoyles move slowly but are very strong."
+  "name": "Stone Golem",
+  "description": "A golem of stone where others are iron. You are slow and hit hard, and knockback, fire and potions do nothing to you."
 }

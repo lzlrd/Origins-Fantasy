@@ -28,12 +28,12 @@ public class VampiricTransformation implements VisibleAbility, Listener {
 
     @Override
     public String description() {
-        return "You can transform other players into vampires by killing them.";
+        return "Players you kill come back as Zombified.";
     }
 
     @Override
     public String title() {
-        return "Vampiric Transformation";
+        return "Infection";
     }
 
     @EventHandler
@@ -49,7 +49,7 @@ public class VampiricTransformation implements VisibleAbility, Listener {
                     if (random.nextDouble()
                         <= (getConfigOption(OriginsFantasy.getInstance(), transformChance, SettingType.FLOAT)).floatValue()) {
                         OriginSwapper.setOrigin(player, OriginSwapper.getOrigin(pl, "origin"), SwapReason.DIED, false, "origin");
-                        player.sendMessage(Component.text("You have transformed into a Vampire!").color(NamedTextColor.RED));
+                        player.sendMessage(Component.text("You have been zombified!").color(NamedTextColor.RED));
                     }
                 }
             );
@@ -61,7 +61,7 @@ public class VampiricTransformation implements VisibleAbility, Listener {
         registerConfigOption(
             OriginsFantasy.getInstance(),
             transformChance,
-            Collections.singletonList("Chance (between 0 and 1) a player will transform into a vampire when killed by one"),
+            Collections.singletonList("Chance (between 0 and 1) that a player killed by a Zombified player becomes one"),
             SettingType.FLOAT,
             1.0F
         );

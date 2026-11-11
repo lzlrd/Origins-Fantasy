@@ -11,5 +11,6 @@
 	},
 	"order": 0,
 	"impact": 1,
-	"description": "Skilled masters of the bow, Elves shoot arrows that are much stronger and faster than any other creatures."
+	"name": "Fletcher",
+	"description": "You grew up at a fletching table. Your arrows fly straight, fast and hard, and one arrow can become a volley of three."
 }

@@ -11,5 +11,6 @@
 	},
 	"order": 0,
 	"impact": 2,
-	"description": "Although clumsy and weak with a bow and arrow, Giants can deal powerful creatures that can destroy any foe with their fists."
+	"name": "Giant",
+	"description": "One of the Giants, three blocks tall with twice the health of a player. Your fists hit hard, but your hands are too big for a bow."
 }

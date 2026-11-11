@@ -17,7 +17,7 @@ public class Stronger implements VisibleAbility, AttributeModifierAbility {
 
     @Override
     public String description() {
-        return "Your vampiric nature makes you stronger than a regular human, making your physical attacks deal far more damage.";
+        return "Your undead body is stronger than a regular human's, so your physical attacks deal far more damage.";
     }
 
     @Override

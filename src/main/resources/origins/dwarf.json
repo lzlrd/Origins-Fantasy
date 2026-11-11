@@ -11,5 +11,6 @@
 	},
 	"order": 1,
 	"impact": 2,
-	"description": "Known for their great skill in finding minerals, the Dwarfs spend most of their time in caves deep underground."
+	"name": "Deepling",
+	"description": "Born below the deepslate line and only one block tall. You see in the dark, mine fast and get more out of every ore."
 }
