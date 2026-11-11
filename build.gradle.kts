@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.starshootercity.originsfantasy"
-version = "1.1.14"
+version = "1.1.14-26.3"
 
 repositories {
     mavenCentral()
